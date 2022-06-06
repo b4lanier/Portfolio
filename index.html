@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+    <title>Brian Lanier Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="./CSS/portfolio.css">
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <div class="navbar">
+        <a class="active" href="#video_section">Home</a> 
+        <a href="#about">About</a>
+        <a href="#github">GitHub</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!--VIDEO-->
+    <div id="video_section">
+        <video autoplay muted loop id="family_video">
+            <source src="images/family.mp4" type="video/mp4"> 
+            <!--error message-->
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+    
+    <!--VIDEO TEXT-->
+    <div class="video_text">
+        <h1 class="white-text">Brian Lanier's Portfolio</h1>
+        <p class="center">
+            <q>There are three kinds of people in this world...
+                <br>those who can count, and those who cannot.
+            </q>
+            <br> -Source unknown
+            <br>
+            <br> My name is Brian Lanier. Welcome to my portfolio website, where I get to tell you a little about myself.
+            <br>
+            <br> Thank you for visiting!
+        </p>
+    </div>
+
+    <!--ABOUT SECTION-->
+    <div class="row" id="about">
+        <!--left column-->
+        <div class="column1">
+            <img src="images/accounting.jpg" alt="Something went wrong with the image"> 
+        </div>
+        <!--right column-->
+        <div class="column2">
+            <h1>About</h1>
+            <p>
+                I am a CFO who decided he could be a lot more efficient with some coding skills.  I am
+                a father of four who lives in the Salt Lake City area.
+                <br>
+                <br>I am a soon-to-be graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech
+                    Academy</a>’s Software Developer Boot Camp, with training in the following web and
+                programming languages: Python, HTML, CSS, JavaScript, SQL, and more.
+                <br>
+                <br>I am a ready to try my new found coding skills on my next adventure. <a
+                    href="#contact">Contact</a> me below!
+            </p>
+        </div>
+    </div>
+
+    <!--GITHUB SECTION-->
+    <div class="row" id="github">
+        <!--left column-->
+        <div class="column2">
+            <h1>GitHub</h1>
+            <p>
+                You can view my coding projects on my GitHub profile here:
+                <br>
+                <p class="center"><a href="https://github.com/b4lanier" target="_blank">Brian Lanier's Github</a> 
+                </p>
+            </p>
+        </div>
+        <!--right column-->
+        <div class="column1">
+            <a href="https://github.com/b4lanier" target="_blank"><img src="images/GitHub.png" 
+                    alt="This was supposed to be the GitHub logo"></a> 
+        </div>
+    </div>
+
+    <!--CONTACT SECTION-->
+    <div class="row" id="contact">
+        <!--contact image, left column-->
+        <div class="column1 column_tall"> <!--column tall??-->
+            <img src="images/contact.jpg" alt="Contact_Image"> 
+        </div>
+
+        <!--contact form, right column-->
+        <div class="column2 column_tall"> <!--column tall??-->
+            <h1>Contact</h1>
+            <form action="https://formspree.io/f/mjvlleyj" method="POST">
+                <label>Name:</label>
+                <input type="text" placeholder="First and Last name">
+                <label>Email:</label>
+                <input type="text" id="email" name="email" placeholder="email address">
+                <label>Message:</label>
+                <input type="text" id="message" name="message" placeholder="Please write your message here">
+                <input type="submit" value="SUBMIT">
+            </form>
+        </div>
+    </div>
+
+    <!-- FOOTER SECTION -->
+    <footer>  
+        <p>
+            <p class="center">&copy Brian Copyright Inc., <a href="https://www.learncodinganywhere.com/" target="_blank">The
+                Tech Academy</a>
+            </p>
+        <br>
+        </p>
+    </footer>
+</body>
+
+<!--I don't think I need those 2 script lines?
+
+<script>'undefined' === typeof _trfq || (window._trfq = []); 'undefined' === typeof _trfd && (window._trfd = []), _trfd.push({ 'tccl.baseHost': 'secureserver.net' }), _trfd.push({ 'ap': 'cpsh' }, { 'server': 'a2plcpnl0302' }) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script>
+<script src='https://img1.wsimg.com/tcc/tcc_l.combined.1.0.6.min.js'></script>
+
+-->
+</html>
